@@ -1,0 +1,23 @@
+{
+  "name": "@earning-machine/monetization-career-kit",
+  "version": "1.0.0",
+  "description": "Professional Career Services Contracts, Agency White-Label Pitch & Dual-Currency Invoicing Engine",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node dist/index.js"
+  },
+  "keywords": [
+    "career-invoicing",
+    "resume-service-agreement",
+    "agency-pitch",
+    "gst-lut",
+    "placement-retainer"
+  ],
+  "author": "Dr. Milind Chatrabhuji",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}

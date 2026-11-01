@@ -1,0 +1,1 @@
+# Pack 1: Core Resume & LinkedIn Optimization Engine\n\nATS resume scoring engine, XYZ impact bullet point rewriter, and executive LinkedIn profile generator.

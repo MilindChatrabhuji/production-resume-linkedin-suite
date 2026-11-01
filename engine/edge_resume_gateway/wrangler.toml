@@ -1,0 +1,8 @@
+name = "production-resume-linkedin-gateway"
+main = "src/worker.ts"
+compatibility_date = "2026-11-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "resume-linkedin-db"
+database_id = "local-resume-db-uuid-placeholder"

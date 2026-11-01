@@ -1,0 +1,1 @@
+# Pack 2: Edge Resume Gateway & Exporter\n\nCloudflare Workers edge REST API with D1 database and ATS Markdown/HTML/PDF universal exporter.

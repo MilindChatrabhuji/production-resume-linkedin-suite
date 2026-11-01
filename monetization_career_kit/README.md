@@ -1,0 +1,1 @@
+# Pack 3: Monetization & Career Retainer Kit\n\nService agreements, client intake workbooks, white-label pitch decks, dual-currency billing, and D1 schema.

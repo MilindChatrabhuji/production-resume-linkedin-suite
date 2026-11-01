@@ -1,0 +1,26 @@
+{
+  "name": "@earning-machine/edge-resume-gateway",
+  "version": "1.0.0",
+  "description": "Cloudflare Workers Edge REST Gateway, ATS Document Exporter & Career Assessment Parser",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev"
+  },
+  "keywords": [
+    "cloudflare-workers",
+    "d1",
+    "edge",
+    "ats-export",
+    "career-gateway"
+  ],
+  "author": "Dr. Milind Chatrabhuji",
+  "license": "MIT",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20231121.0",
+    "typescript": "^5.3.3",
+    "wrangler": "^3.19.0"
+  }
+}

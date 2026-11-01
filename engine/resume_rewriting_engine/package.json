@@ -1,0 +1,24 @@
+{
+  "name": "@earning-machine/resume-rewriting-engine",
+  "version": "1.0.0",
+  "description": "Production ATS Resume Parser, Quantitative Bullet Transformer & Executive LinkedIn Profile Optimizer",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node dist/index.js"
+  },
+  "keywords": [
+    "ats-resume",
+    "linkedin-optimization",
+    "xyz-formula",
+    "star-method",
+    "career-tech",
+    "healthcare-informatics"
+  ],
+  "author": "Dr. Milind Chatrabhuji",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}

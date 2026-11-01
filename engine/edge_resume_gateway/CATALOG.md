@@ -1,0 +1,1 @@
+# Pack 2 Catalog: Edge Resume Gateway\n\nSingle Pack Price: $9.00 USD (~₹750 INR)

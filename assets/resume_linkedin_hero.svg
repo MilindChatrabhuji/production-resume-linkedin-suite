@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A0E1A" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#1E1B4B" />
+    </linearGradient>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="50%" stop-color="#6366F1" />
+      <stop offset="100%" stop-color="#8B5CF6" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)" />
+
+  <!-- Subtle Blueprint Grid -->
+  <g stroke="#334155" stroke-width="0.5" opacity="0.3">
+    <line x1="100" y1="0" x2="100" y2="630" />
+    <line x1="300" y1="0" x2="300" y2="630" />
+    <line x1="500" y1="0" x2="500" y2="630" />
+    <line x1="700" y1="0" x2="700" y2="630" />
+    <line x1="900" y1="0" x2="900" y2="630" />
+    <line x1="1100" y1="0" x2="1100" y2="630" />
+    <line x1="0" y1="100" x2="1200" y2="100" />
+    <line x1="0" y1="200" x2="1200" y2="200" />
+    <line x1="0" y1="300" x2="1200" y2="300" />
+    <line x1="0" y1="400" x2="1200" y2="400" />
+    <line x1="0" y1="500" x2="1200" y2="500" />
+  </g>
+
+  <!-- Central Card Enclosure -->
+  <rect x="80" y="60" width="1040" height="510" rx="24" fill="#0F172A" stroke="#334155" stroke-width="2" opacity="0.9" />
+
+  <!-- Top Pill Badge -->
+  <rect x="120" y="95" width="260" height="36" rx="18" fill="#1E293B" stroke="#6366F1" stroke-width="1.5" />
+  <circle cx="138" cy="113" r="6" fill="#6366F1" />
+  <text x="154" y="118" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" letter-spacing="1">WAY #56 &#8226; PRODUCT 58</text>
+
+  <!-- Title & Headline -->
+  <text x="120" y="175" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800">Production ATS Resume &amp; LinkedIn Suite</text>
+  <text x="120" y="212" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="500">Executive Positioning, Google XYZ Formula Bullets &amp; ATS Parseability Engine</text>
+
+  <!-- Left Column: Pillar Cards -->
+  <g transform="translate(120, 245)">
+    <!-- ATS Engine Card -->
+    <rect x="0" y="0" width="280" height="90" rx="12" fill="#1E293B" stroke="#3B82F6" stroke-width="1.5" />
+    <text x="20" y="32" fill="#60A5FA" font-family="sans-serif" font-size="16" font-weight="700">ATS Compliance &#8226; 90%+ Score</text>
+    <text x="20" y="58" fill="#E2E8F0" font-family="sans-serif" font-size="13">Single-Column Parseability Guard</text>
+    <text x="20" y="76" fill="#94A3B8" font-family="sans-serif" font-size="11">Workday, Greenhouse &amp; Lever Safe</text>
+
+    <!-- LinkedIn Optimizer Card -->
+    <rect x="0" y="105" width="280" height="90" rx="12" fill="#1E293B" stroke="#6366F1" stroke-width="1.5" />
+    <text x="20" y="137" fill="#818CF8" font-family="sans-serif" font-size="16" font-weight="700">LinkedIn SEO &#8226; 220-Char Headline</text>
+    <text x="20" y="163" fill="#E2E8F0" font-family="sans-serif" font-size="13">High-CTR Recruiter Optimization</text>
+    <text x="20" y="181" fill="#94A3B8" font-family="sans-serif" font-size="11">First-Person Narrative About Hook</text>
+
+    <!-- XYZ Formula Card -->
+    <rect x="0" y="210" width="280" height="90" rx="12" fill="#1E293B" stroke="#8B5CF6" stroke-width="1.5" />
+    <text x="20" y="242" fill="#C084FC" font-family="sans-serif" font-size="16" font-weight="700">Google XYZ Impact Transformer</text>
+    <text x="20" y="268" fill="#E2E8F0" font-family="sans-serif" font-size="13">Tech &amp; Healthcare Informatics</text>
+    <text x="20" y="286" fill="#94A3B8" font-family="sans-serif" font-size="11">Quantified Latency, Scale &amp; $ Metrics</text>
+  </g>
+
+  <!-- Right Column: Architecture & Commercial Details -->
+  <g transform="translate(430, 245)">
+    <!-- Architecture Specs -->
+    <rect x="0" y="0" width="650" height="195" rx="14" fill="#1E293B" stroke="#334155" stroke-width="1" />
+    <text x="24" y="32" fill="#818CF8" font-family="sans-serif" font-size="14" font-weight="700" letter-spacing="1">SYSTEM ARCHITECTURE &amp; CAPABILITIES</text>
+    
+    <text x="24" y="65" fill="#FFFFFF" font-family="sans-serif" font-size="13" font-weight="600">&#8226; Pack 1: ATS Parser Engine (0-100% scoring), LinkedIn Optimizer, XYZ Bullet Transformer</text>
+    <text x="24" y="92" fill="#FFFFFF" font-family="sans-serif" font-size="13" font-weight="600">&#8226; Pack 2: Edge Resume Gateway (Cloudflare D1 SQL), Markdown/HTML/PDF Universal Exporter</text>
+    <text x="24" y="119" fill="#FFFFFF" font-family="sans-serif" font-size="13" font-weight="600">&#8226; Pack 3: Career Service Agreements ($149 - $599 packages), Corporate Retainers ($750/mo)</text>
+    <text x="24" y="146" fill="#FFFFFF" font-family="sans-serif" font-size="13" font-weight="600">&#8226; Standards: 100% Modern Evidence-Based Clinical Informatics &amp; High-Scale Tech Engineering</text>
+    <text x="24" y="173" fill="#34D399" font-family="sans-serif" font-size="13" font-weight="700">&#8226; Verification: 100% Zero-Defect Pass Certified &#8226; 8 CRC-Verified Release Archives</text>
+
+    <!-- Pricing & Commercial Bar -->
+    <rect x="0" y="210" width="650" height="90" rx="14" fill="#0B132B" stroke="#6366F1" stroke-width="1.5" />
+    <text x="24" y="245" fill="#F8FAFC" font-family="sans-serif" font-size="16" font-weight="700">Commercial Licensing: Single Pack $9.00 USD (~&#8377;750) &#8226; Master Suite $19.00 USD (~&#8377;1,599)</text>
+    <text x="24" y="275" fill="#94A3B8" font-family="sans-serif" font-size="13">Direct UPI: milind.chatrabhuji@okhdfcbank &#8226; PayPal: milind.chatrabhuji@gmail.com</text>
+  </g>
+</svg>
